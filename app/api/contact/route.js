@@ -13,13 +13,20 @@ export async function POST(request) {
       )
     }
 
+    // Check if email is configured
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      return NextResponse.json(
+        { error: 'Email service not configured. Please contact via LinkedIn or GitHub.' },
+        { status: 503 }
+      )
+    }
+
     // Create transporter
-    // Note: You'll need to set up environment variables for email credentials
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER || 'your-email@gmail.com',
-        pass: process.env.EMAIL_PASS || 'your-app-password',
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     })
 
