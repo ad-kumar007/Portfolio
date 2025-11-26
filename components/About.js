@@ -20,7 +20,7 @@ const About = () => {
 
           <div className="glass rounded-3xl p-8 md:p-12 space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed reveal-child">
-              I'm a passionate <span className="text-primary font-semibold">Full-Stack Developer</span> and{' '}
+              I&apos;m a passionate <span className="text-primary font-semibold">Full-Stack Developer</span> and{' '}
               <span className="text-secondary font-semibold">AI/ML Engineer</span> with a strong foundation in
               building scalable web applications and intelligent systems. Currently pursuing my B.Tech in Computer
               Science and Engineering at KIIT University, I specialize in modern web technologies and machine learning.
@@ -30,13 +30,13 @@ const About = () => {
               My expertise spans across the entire development stack - from crafting beautiful, responsive frontends
               with <span className="text-primary">React</span> and <span className="text-primary">Next.js</span>, to
               building robust backends with <span className="text-secondary">Node.js</span> and{' '}
-              <span className="text-secondary">Express</span>. I'm also deeply involved in AI/ML projects, working
+              <span className="text-secondary">Express</span>. I&apos;m also deeply involved in AI/ML projects, working
               with frameworks like <span className="text-accent">TensorFlow</span>,{' '}
               <span className="text-accent">PyTorch</span>, and <span className="text-accent">LangChain</span>.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed reveal-child">
-              I thrive on solving complex problems and turning innovative ideas into reality. Whether it's developing
+              I thrive on solving complex problems and turning innovative ideas into reality. Whether it&apos;s developing
               intelligent applications with GPT-4 integration, building secure authentication systems, or optimizing
               database performance, I bring a detail-oriented approach to every project.
             </p>

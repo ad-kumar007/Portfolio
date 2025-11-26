@@ -176,11 +176,11 @@ const Contact = () => {
             >
               <div>
                 <h3 className="text-3xl font-clash font-bold text-white mb-4">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I'm always open to discussing new projects, creative ideas, or opportunities to be
-                  part of your vision. Whether you have a question or just want to say hi, I'll try
+                  I&apos;m always open to discussing new projects, creative ideas, or opportunities to be
+                  part of your vision. Whether you have a question or just want to say hi, I&apos;ll try
                   my best to get back to you!
                 </p>
               </div>
